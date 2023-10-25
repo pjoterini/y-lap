@@ -1,6 +1,8 @@
 # x-com Clone website
 
-[Original Site Link](https://www.x-kom.pl/)
+[Prototype Site Link](https://www.x-kom.pl/)
+
+[Site Link](https://x-com-clone.glitch.me/)
 
 ## Description
 
