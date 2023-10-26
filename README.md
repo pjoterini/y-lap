@@ -2,7 +2,7 @@
 
 [Prototype Site Link](https://www.x-kom.pl/)
 
-[Site Link](https://x-com-clone.glitch.me/)
+[Site Link](https://xkom-clone.vercel.app/)
 
 ## Description
 
