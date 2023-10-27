@@ -1,45 +1,56 @@
 import './index.scss'
-import burgerMenu from './javascript/home/burgerMenu'
 import colorTheme from './javascript/home/colorTheme'
 import initializeLocalStorage from './javascript/home/initializeLocalStorage'
 import isCartEmpty from './javascript/home/isCartEmpty'
 import searchBar from './javascript/home/searchBar'
-import timer from './javascript/home/timer'
+import burgerMenu from './javascript/home/burgerMenu'
 import whyPopup from './javascript/home/whyPopup'
-import item from './javascript/item/item'
-import radioButtons from './javascript/deliveryOptions/radioButtons'
-import price from './javascript/deliveryOptions/price'
-import form from './javascript/deliveryOptions/form'
-import cart from './javascript/cart'
-import slider from './javascript/home/slider'
+
+const globals = () => {
+  colorTheme()
+  initializeLocalStorage()
+  isCartEmpty()
+  searchBar()
+  burgerMenu()
+  whyPopup()
+}
 
 // HOME
+import slider from './javascript/home/slider'
+import timer from './javascript/home/timer'
 
-colorTheme()
-initializeLocalStorage()
-isCartEmpty()
-searchBar()
-burgerMenu()
-whyPopup()
-slider()
-timer()
+if (document.querySelector('.slider')) {
+  globals()
+  slider()
+  timer()
+}
 
 // ITEM
+import addItemToCart from './javascript/item/addItemToCart'
 
 if (document.querySelector('.item-main')) {
-  item()
+  globals()
+  addItemToCart()
 }
 
 // CART
+import cart from './javascript/cart/cart'
 
 if (document.querySelector('.koszyk')) {
+  globals()
   cart()
 }
 
 // DELIVERY OPTIONS
+import calculateFinalPrices from './javascript/deliveryOptions/calculateFinalPrices'
+import deliveryForm from './javascript/deliveryOptions/deliveryForm'
+import deliveryRadioButtons from './javascript/deliveryOptions/deliveryRadioButtons'
+import submitButtonEventListener from './javascript/deliveryOptions/submitButton'
 
 if (document.querySelector('.dostawa-main')) {
-  price()
-  radioButtons()
-  form()
+  colorTheme()
+  calculateFinalPrices()
+  deliveryForm()
+  deliveryRadioButtons()
+  submitButtonEventListener()
 }

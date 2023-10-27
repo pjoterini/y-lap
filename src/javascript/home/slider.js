@@ -1,11 +1,9 @@
 const slider = () => {
-  const sliderContainer = document.querySelector('.slides-container')
   const slides = document.querySelector('.slides')
 
   const leftButton = document.querySelector('.slider-btn-left')
   const rightButton = document.querySelector('.slider-btn-right')
   const slidesLength = slides.querySelectorAll('div').length
-  const sliderTextsContainer = document.querySelector('.slider-texts')
   const sliderTexts = document.querySelectorAll('.slider-text')
 
   const ST1 = document.querySelector('.slider-text-1')

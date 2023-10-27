@@ -1,6 +1,6 @@
 const searchBar = () => {
   const searchTexts = document.querySelectorAll('.search-text')
-  let itemInfoContainer = document.querySelector('.item-info-container')
+  const itemInfoContainer = document.querySelector('.item-info-container')
   const itemInfoCard = document.querySelector('[data-item-info-card')
   const searchInput = document.querySelector('[data-search]')
 
@@ -11,7 +11,7 @@ const searchBar = () => {
     itemInfoContainer.append(card)
   })
 
-  let cards = itemInfoContainer.querySelectorAll('.item-info-card')
+  const cards = itemInfoContainer.querySelectorAll('.item-info-card')
 
   searchInput.addEventListener('input', (e) => {
     itemInfoContainer.classList.remove('hide')

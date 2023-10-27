@@ -4,14 +4,6 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap"
-      rel="stylesheet"
-    />
-
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
@@ -228,67 +220,71 @@
             </div>
 
             <h3>Dane odbiorcy</h3>
-
-            <div class="odbiorca-form-container">
-              <form action="">
+            <form class="odbiorca-form-container" action="">
+              <div class="input-container">
                 <label for="username">Imię i nazwisko lub nazwa firmy</label>
                 <input
-                  class="form-input"
-                  type="text"
+                  id="username"
                   name="username"
+                  type="text"
+                  class="form-input"
                   autocomplete="username"
                 />
-              </form>
-              <form action="">
+              </div>
+              <div class="input-container">
                 <label for="address">Ulica i numer</label>
                 <input
-                  class="form-input"
-                  type="address"
+                  id="address"
                   name="address"
+                  type="address"
+                  class="form-input"
                   autocomplete="address"
                 />
-              </form>
-              <form action="">
+              </div>
+              <div class="input-container">
                 <label for="postal-code">Kod pocztowy</label>
                 <input
-                  class="form-input"
-                  type="text"
+                  id="postal-code"
                   name="postal-code"
+                  type="text"
+                  class="form-input"
                   autocomplete="postal-code"
                 />
-              </form>
-              <form action="">
+              </div>
+              <div class="input-container">
                 <label for="city">Miejscowość</label>
                 <input
-                  class="form-input"
-                  type="text"
+                  id="city"
                   name="city"
+                  type="text"
+                  class="form-input"
                   autocomplete="city"
                 />
-              </form>
-              <form action="">
-                <label for="username">E-mail</label>
+              </div>
+              <div class="input-container">
+                <label for="email">E-mail</label>
                 <input
-                  class="form-input"
-                  type="email"
+                  id="email"
                   name="email"
+                  type="email"
+                  class="form-input"
                   autocomplete="email"
                 />
-              </form>
-              <form action="">
+              </div>
+              <div class="input-container">
                 <label for="tel">Telefon</label>
                 <input
+                  id="tel"
+                  name="tel"
                   class="form-input"
                   type="text"
-                  name="tel"
                   autocomplete="tel"
                 />
-              </form>
-            </div>
+              </div>
+            </form>
 
-            <div class="form-data">
+            <section class="form-data">
               <h4>Dane do faktury</h4>
-
               <div class="form-data-info">
                 <i class="fa-solid fa-circle-info"></i>
                 <h5>
@@ -319,7 +315,7 @@
                   </h5>
                 </div>
               </div>
-            </div>
+            </section>
 
             <h3>Zgody formalne</h3>
 
@@ -333,26 +329,26 @@
               </div>
               <div class="form-data-checkbox">
                 <label class="checkbox-btn-container">
-                  <input class="" type="checkbox" name="checkbox3" />
+                  <input type="checkbox" name="checkbox3" />
                   <span class="checkmark"></span>
                 </label>
                 <p><strong>Zaznacz wszystkie</strong></p>
               </div>
               <div class="form-data-checkbox">
                 <label class="checkbox-btn-container">
-                  <input class="" type="checkbox" name="checkbox3" />
+                  <input type="checkbox" name="checkbox3" />
                   <span class="checkmark"></span>
                 </label>
                 <p>Akceptuję <a href="">regulamin</a> sklepu*</p>
               </div>
               <div class="form-data-checkbox">
                 <label class="checkbox-btn-container">
-                  <input class="" type="checkbox" name="checkbox3" />
+                  <input type="checkbox" name="checkbox3" />
                   <span class="checkmark"></span>
                 </label>
                 <p>
                   Chcę podzielić się opinią o satysfakcji z zakupów &nbsp
-                  <a href="">Więcej</a>
+                  <a href="#">Więcej</a>
                 </p>
               </div>
             </div>

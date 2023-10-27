@@ -1,6 +1,8 @@
 const radioButtons = () => {
   const radioBtns = document.querySelectorAll('.radio-btn-input')
   const checkBoxes = document.querySelectorAll('.check-box')
+  const radioBtns2 = document.querySelectorAll('.i2')
+  const checkBoxes2 = document.querySelectorAll('.cb2')
 
   radioBtns.forEach((radioBtn) => {
     radioBtn.addEventListener('click', (e) => {
@@ -14,9 +16,6 @@ const radioButtons = () => {
       })
     })
   })
-
-  const radioBtns2 = document.querySelectorAll('.i2')
-  const checkBoxes2 = document.querySelectorAll('.cb2')
 
   radioBtns2.forEach((radioBtn) => {
     radioBtn.addEventListener('click', (e) => {
