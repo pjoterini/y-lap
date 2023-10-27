@@ -11,7 +11,7 @@ Made with HTML, SCSS and vanilla JS.
 
 ## Navigation - JS features
 
-On main page You can find:
+MAIN PAGE:
 
 - darkmode
 - basic searchbar
@@ -19,7 +19,14 @@ On main page You can find:
 - on-click ad's slider
 - timer
 
-Clicking on any item in "Polecamy" section will open item page with hardcoded informations. Clicking on button will increase cart value stored in **Local Memory**. Cart icon opens next page.
+Clicking on any item in "Polecamy" section will open item page with hardcoded informations.
+
+ITEM PAGE:
+
+Clicking on "Dodaj do koszyka" button will increase cart value stored in **Local Memory**.
+Cart icon opens next page.
+
+CART PAGE:
 
 Here You can:
 
@@ -27,6 +34,8 @@ Here You can:
 - clear cart amount
 - go back to main with "Wróć do zakupów" button
 - go to delivery details if cart is not empty
+
+DELIVERY PAGE:
 
 This page contains various custom form elements.
 Clicking on order button will set cart value to 0 and display modal which takes You to main page.
