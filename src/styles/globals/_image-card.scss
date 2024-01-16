@@ -1,10 +1,10 @@
 @use '../util' as u;
 
-.advert-card-container {
+.image-card-container {
   display: flex;
   flex-direction: column;
 
-  .advert-card-padding {
+  .image-card-padding {
     padding: u.rem(20) 0;
     background-color: white;
 
@@ -13,7 +13,7 @@
     box-shadow: 0px 0px 4px -2px rgba(66, 68, 90, 1);
     border-radius: u.rem(12);
 
-    .advert-card {
+    .image-card {
       height: u.rem(250);
       padding: u.rem(100);
       background-position: center;
@@ -22,7 +22,7 @@
     }
   }
 
-  .advert-card-padding-zero {
+  .image-card-padding-zero {
     -webkit-box-shadow: 0px 0px 4px -2px rgba(66, 68, 90, 1);
     -moz-box-shadow: 0px 0px 4px -2px rgba(66, 68, 90, 1);
     box-shadow: 0px 0px 4px -2px rgba(66, 68, 90, 1);
@@ -30,7 +30,7 @@
     overflow: hidden;
     background-color: white;
 
-    .advert-card {
+    .image-card {
       height: u.rem(290);
       padding: u.rem(100);
       background-position: center;
