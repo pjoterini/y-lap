@@ -15,7 +15,7 @@ Data is mostly hardcoded. No libraries were used for JavaScript features, all of
 - on-click ad's slider
 - timer
 
-## Navigation - JS features
+## Navigation
 
 MAIN PAGE:
 
