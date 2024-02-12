@@ -1,4 +1,4 @@
-# x-com Clone website
+# y-lap
 
 [Prototype website link](https://www.x-kom.pl/)
 
