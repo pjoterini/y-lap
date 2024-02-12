@@ -1,23 +1,23 @@
 # x-com Clone website
 
-[Prototype Site Link](https://www.x-kom.pl/)
+[Prototype website link](https://www.x-kom.pl/)
 
-[Site Link](https://xkom-clone.vercel.app/)
+[Website preview](https://xkom-clone.vercel.app/)
 
 ## Description
 
-E-commerce store with a lot of hard coded data.
-Made with HTML, SCSS and vanilla JS.
+E-commerce store with pixel-perfect UI copy of the prototype.
+Data is mostly hardcoded. No libraries were used for JavaScript features, all of these are custom.
+
+- darkmode
+- searchbar
+- on-click popup
+- on-click ad's slider
+- timer
 
 ## Navigation - JS features
 
 MAIN PAGE:
-
-- darkmode
-- basic searchbar
-- on-click popup
-- on-click ad's slider
-- timer
 
 Clicking on any item in "Polecamy" section will open item page with hardcoded informations.
 
@@ -38,4 +38,8 @@ Here You can:
 DELIVERY PAGE:
 
 This page contains various custom form elements.
-Clicking on order button will set cart value to 0 and display modal which takes You to main page.
+Clicking on order button will set cart value to 0 and display modal which takes You back to main page.
+
+## STACK
+
+HTML • SCSS • Vanilla JavaScript 
